@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLittleVault", "MyLittleVault\MyLittleVault.csproj", "{3203B736-CC3B-45BE-8FE5-56E7785D578D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3203B736-CC3B-45BE-8FE5-56E7785D578D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3203B736-CC3B-45BE-8FE5-56E7785D578D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3203B736-CC3B-45BE-8FE5-56E7785D578D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3203B736-CC3B-45BE-8FE5-56E7785D578D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B198148-F3E3-47F4-8B6B-4A8DD8FC9CB0}
+	EndGlobalSection
+EndGlobal
