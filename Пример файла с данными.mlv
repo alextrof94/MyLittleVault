@@ -1,0 +1,52 @@
+{
+  "RootItems": [
+    {
+      "Name": "Проект 1",
+      "Type": "Folder",
+      "Childs": [
+        {
+          "Name": "Логин",
+          "Type": "Text",
+          "Value": "myLogin"
+        },
+        {
+          "Name": "Пароль",
+          "Type": "Hidden",
+          "Value": "mySecretPassword"
+        },
+      ]
+    },
+    {
+      "Name": "Проект 2",
+      "Type": "Folder",
+      "Childs": [
+        {
+          "Name": "Логин",
+          "Type": "Text",
+          "Value": "myLogin2"
+        },
+        {
+          "Name": "Пароль",
+          "Type": "Hidden",
+          "Value": "mySecretPassword2"
+        },
+        {
+          "Name": "Доп инфа",
+          "Type": "Folder",
+          "Childs": [
+            {
+              "Name": "Релиз по ПН, ЧТ",
+              "Type": "Text",
+              "Enabled": "false"
+            },
+            {
+              "Name": "URL",
+              "Type": "Text",
+              "Value": "https://github.com/alextrof94/MyLittleVault"
+            },
+          ]
+        },
+      ]
+    },
+  ]
+}
