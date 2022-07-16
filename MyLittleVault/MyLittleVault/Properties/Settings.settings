@@ -2,7 +2,7 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MyLittleVault.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="FilePath" Type="System.String" Scope="User">
+    <Setting Name="EncryptedData" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

@@ -26,12 +26,12 @@ namespace MyLittleVault.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string FilePath {
+        public string EncryptedData {
             get {
-                return ((string)(this["FilePath"]));
+                return ((string)(this["EncryptedData"]));
             }
             set {
-                this["FilePath"] = value;
+                this["EncryptedData"] = value;
             }
         }
     }

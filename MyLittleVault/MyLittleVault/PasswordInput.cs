@@ -13,9 +13,10 @@ namespace MyLittleVault
 	{
 		public string Password = "";
 
-		public PasswordInput()
+		public PasswordInput(Form1 MainForm)
 		{
 			InitializeComponent();
+			this.Text = "Введите пароль - " + MainForm.AppName;
 		}
 
 		private void ButtonEncrypt_Click(object sender, EventArgs e)

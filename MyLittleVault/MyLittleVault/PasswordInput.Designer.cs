@@ -39,6 +39,7 @@ namespace MyLittleVault
 			// 
 			this.TextBoxPassword.Location = new System.Drawing.Point(12, 12);
 			this.TextBoxPassword.Name = "TextBoxPassword";
+			this.TextBoxPassword.PasswordChar = '*';
 			this.TextBoxPassword.Size = new System.Drawing.Size(357, 20);
 			this.TextBoxPassword.TabIndex = 0;
 			this.TextBoxPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBoxPassword_KeyDown);
