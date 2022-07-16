@@ -1,18 +1,4 @@
 
 *.cache
 MyLittleVault/.vs/MyLittleVault/v16/.suo
-MyLittleVault/MyLittleVault/bin/Debug/app.publish/Application Files/MyLittleVault_1_1_0_0/Icon.ico.deploy
-MyLittleVault/MyLittleVault/bin/Debug/app.publish/Application Files/MyLittleVault_1_1_0_0/MyLittleVault.exe.config.deploy
-MyLittleVault/MyLittleVault/bin/Debug/app.publish/Application Files/MyLittleVault_1_1_0_0/MyLittleVault.exe.deploy
-MyLittleVault/MyLittleVault/bin/Debug/app.publish/Application Files/MyLittleVault_1_1_0_0/MyLittleVault.exe.manifest
-MyLittleVault/MyLittleVault/bin/Debug/app.publish/Application Files/MyLittleVault_1_1_0_0/Newtonsoft.Json.dll.deploy
-MyLittleVault/MyLittleVault/bin/Debug/app.publish/MyLittleVault.application
-MyLittleVault/MyLittleVault/bin/Debug/app.publish/setup.exe
-MyLittleVault/MyLittleVault/bin/Debug/MyLittleVault.application
-MyLittleVault/MyLittleVault/bin/Debug/MyLittleVault.exe.manifest
-MyLittleVault/MyLittleVault/bin/Debug/MyLittleVault.application
-MyLittleVault/MyLittleVault/bin/Debug/MyLittleVault.exe.manifest
-MyLittleVault/MyLittleVault/obj/Debug/MyLittleVault.exe.manifest
-MyLittleVault/MyLittleVault/obj/Debug/MyLittleVault.application
-MyLittleVault/MyLittleVault/obj/Debug/MyLittleVault.exe.manifest
-MyLittleVault/MyLittleVault/obj/Debug/MyLittleVault.application
+MyLittleVault/MyLittleVault/bin/*

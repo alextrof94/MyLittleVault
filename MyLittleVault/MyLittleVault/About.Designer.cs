@@ -39,6 +39,7 @@ namespace MyLittleVault
 			this.LabelAuthor = new System.Windows.Forms.Label();
 			this.LabelGithub = new System.Windows.Forms.Label();
 			this.ButtonClearData = new System.Windows.Forms.Button();
+			this.label5 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// LabelName
@@ -129,11 +130,22 @@ namespace MyLittleVault
 			this.ButtonClearData.UseVisualStyleBackColor = true;
 			this.ButtonClearData.Click += new System.EventHandler(this.ButtonClearData_Click);
 			// 
+			// label5
+			// 
+			this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.label5.AutoSize = true;
+			this.label5.Location = new System.Drawing.Point(197, 9);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(148, 13);
+			this.label5.TabIndex = 9;
+			this.label5.Text = "(нажмите для копирования)";
+			// 
 			// About
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(357, 101);
+			this.Controls.Add(this.label5);
 			this.Controls.Add(this.ButtonClearData);
 			this.Controls.Add(this.LabelGithub);
 			this.Controls.Add(this.LabelAuthor);
@@ -166,5 +178,6 @@ namespace MyLittleVault
 		private System.Windows.Forms.Label LabelAuthor;
 		private System.Windows.Forms.Label LabelGithub;
 		private System.Windows.Forms.Button ButtonClearData;
+		private System.Windows.Forms.Label label5;
 	}
 }

@@ -16,7 +16,7 @@ namespace MyLittleVault
 	public partial class Form1 : Form
 	{
 		public readonly string AppName = "MyLittleVault";
-		public readonly string Version = "1.1";
+		public readonly string Version = "1.1.1";
 		public readonly string Author = "alextrof94";
 		public readonly string GithubLink = "https://github.com/alextrof94/MyLittleVault";
 

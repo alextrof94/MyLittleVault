@@ -46,7 +46,8 @@ namespace MyLittleVault
 
 		private void ButtonClearData_Click(object sender, EventArgs e)
 		{
-			MainForm.ClearDataFromSettings();
+			if (MessageBox.Show("Вы действительно хотите удалить сохраненные данные?", MainForm.AppName, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+				MainForm.ClearDataFromSettings();
 		}
 	}
 }
