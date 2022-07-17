@@ -150,7 +150,7 @@ namespace MyLittleVault
 			}
 			catch (Exception ex)
 			{
-				throw new Exception("Ошибка при попытке десериализации данных" + ex.Message);
+				throw new Exception("Ошибка при попытке десериализации данных\r\n" + ex.Message);
 			}
 		}
 
