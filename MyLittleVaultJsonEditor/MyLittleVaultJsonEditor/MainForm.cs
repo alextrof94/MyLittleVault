@@ -16,8 +16,8 @@ namespace MyLittleVaultJsonEditor
 	public partial class MainForm : Form
 	{
 		public readonly string AppName = "MyLittleVault";
-		public readonly string Version = "1.0";
-		public readonly string TargetVersion = "1.1.1";
+		public readonly string Version = "1.0.1";
+		public readonly string TargetVersion = "1.1.2";
 		public readonly string Author = "alextrof94";
 		public readonly string GithubLink = "https://github.com/alextrof94/MyLittleVault";
 
