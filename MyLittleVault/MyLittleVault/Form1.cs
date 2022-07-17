@@ -299,6 +299,7 @@ namespace MyLittleVault
 				if (dialogResult != DialogResult.OK)
 					throw new Exception("Отменен ввод пароля шифрования");
 
+				File.Delete(sfd.FileName);
 				using (FileStream fileStream = new FileStream(sfd.FileName, FileMode.OpenOrCreate))
 				{
 					using (Aes aes = Aes.Create())
